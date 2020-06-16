@@ -21,6 +21,9 @@ body {
   font-size: 14px;
   line-height: 1.8;
 }
+.section {
+  margin-bottom: 94px;
+}
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -111,6 +114,7 @@ ul {
 }
 .hero {
   text-align: center;
+  margin-bottom: 94px;
 }
 .hero-title {
   margin-top: 0;
@@ -178,10 +182,7 @@ ul {
   text-decoration: none;
 }
 /* Наша команда */
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 .team-list,
 .team-list p {
   margin-top: 0;
@@ -223,13 +224,15 @@ ul {
   margin-bottom: 0;
 }
 /* footer */
-.address {
-  margin-right: 69px;
+.footer.container {
   padding-top: 45px;
-  padding-bottom: 88px;
 }
 .footer {
   display: flex;
+  align-items: baseline;
+}
+.address {
+  margin-right: 69px;
 }
 .footer-contacts {
   display: flex;
@@ -272,10 +275,10 @@ ul {
   text-align: center;
   display: inline-block;
 }
-.join {
-  padding-top: 57px;
-  padding-bottom: 116px;
-  margin-right: 94px;
+
+.subscription {
+  display: flex;
+  flex-direction: column;
 }
 .join b,
 .subscription b {
@@ -287,8 +290,12 @@ ul {
   line-height: 1.14;
   text-transform: uppercase;
 }
-
+.join {
+  margin-right: 94px;
+}
 .caption {
+  margin: 0;
+  padding-top: 18px;
   padding-bottom: 21px;
   color: rgba(255, 255, 255, 0.4);
   font-size: 12px;
@@ -296,8 +303,12 @@ ul {
   text-align: center;
 }
 /* Портфолио */
+.page-header.portfolio {
+  margin-bottom: 94px;
+}
 h1 {
   text-align: center;
+  margin: 0;
 }
 .filter {
   margin-top: 0;
